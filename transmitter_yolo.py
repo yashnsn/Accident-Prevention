@@ -166,7 +166,7 @@ class Pipeline:
 #         self.boxes = boxes
         return drawn
         
-video_src = 'project_video.mp4'
+video_src = 'video.mp4'
 cap = cv2.VideoCapture(video_src)
 while True:
     print(3)
